@@ -1,0 +1,32 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int num;
+    int count=0;
+    int pas;
+    scanf("%s",&pas);
+    int lenght=strlen(pas);
+    while(pas!=0){
+       num /=10;
+        count++;
+        
+    }
+    for(int i=0;i<count;i++){
+    if( lenght >=5){
+             if(pas<=47&&pas>=32||pas>=58&&pas<=64||pas>=91&&pas<=96||pas<=126&&count>=123){
+                     if(pas>=97&&pas<=123){
+                         printf("pass");
+                         
+                     }
+                    
+                 }
+                    
+             }
+             else{
+                 printf("fail");
+             }
+        }
+        
+    }
